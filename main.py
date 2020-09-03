@@ -22,7 +22,7 @@ def stream():
 
         for (x, y, w, h) in faces:
             cv2.rectangle(gray, (x, y), (x + w, y + h), (0, 255, 0), 2)
-        cv2.imshow("DJI Tello", gray)
+        cv2.imshow("DJI Te llo", gray)
 
         # Video Stream is closed if escape key is pressed
         k = cv2.waitKey(1) & 0xFF
