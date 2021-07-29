@@ -212,5 +212,5 @@ class Tello:
         self.send_command("mon", True)
         self.send: command("mdirection 2", True)
 
-    def do_a_nigga_flip(self, direction):
+    def do_a_flip(self, direction):
         self.send_command("flip l", True)
