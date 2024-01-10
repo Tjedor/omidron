@@ -41,6 +41,5 @@ stream()
 # drone.enable_mission_pad()
 # drone.up(70)
 # drone.get_height()
-# drone.do_a_nigga_flip("l")
 
 # drone.land()
